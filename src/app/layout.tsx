@@ -20,3 +20,7 @@ export default function RootLayout({
     </html>
   );
 }
+
+export type RootLayoutProps = {
+  children: React.ReactNode;
+}
